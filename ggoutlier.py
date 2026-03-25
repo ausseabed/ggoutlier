@@ -68,12 +68,10 @@
 
 import os.path
 from argparse import ArgumentParser
-from datetime import datetime, timedelta
-import math
+from datetime import datetime
 import numpy as np
 import sys
 import time
-import glob
 import rasterio
 import multiprocessing as mp
 import shapefile
