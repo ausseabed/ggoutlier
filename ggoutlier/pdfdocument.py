@@ -216,7 +216,7 @@ def reportsummary(myreport, GGOutlierlogfilename):
 	myreport.addspace()
 	myreport.addparagraph("")
 	
-	image = os.path.join(os.path.dirname(__file__), "GGOutliergis.png")
+	image = os.path.join(os.path.dirname(__file__), "GGOutlierGIS.png")
 	myreport.addimage(image, 450)
 
 	plt.ioff()
