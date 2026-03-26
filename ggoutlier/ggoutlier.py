@@ -78,12 +78,12 @@ import shapefile
 import logging
 
 # locals
-import fileutils
-import geodetic
-import cloud2tif
-import ggmbesstandard
-import pdfdocument
-import pylasfile
+from . import fileutils
+from . import geodetic
+from . import cloud2tif
+from . import ggmbesstandard
+from . import pdfdocument
+from . import pylasfile
 
 ###########################################################################
 def main(cli_args=sys.argv[1:]):
