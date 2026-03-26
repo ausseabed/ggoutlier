@@ -33,9 +33,8 @@ from rasterio.enums import Resampling
 import matplotlib.pyplot as plt
 import math
 
-sys.path.append(os.path.join(os.path.dirname(__file__), '..', 'shared'))
-import fileutils
-import cloud2tif
+from . import fileutils
+from . import cloud2tif
 
 ####################################################################################################
 ####################################################################################################

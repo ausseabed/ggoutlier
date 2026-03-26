@@ -2,13 +2,13 @@ from setuptools import setup
 
 setup(
     name='ggoutlier',
-    version='0.0.1',
+    version='0.4.0',
     url='https://github.com/pktrigg/ggoutlier',
     author=(
-        "pktrigg;"
+        "pktrigg"
     ),
     author_email=(
-        "pktrigg@gmail.com;"
+        "pktrigg@gmail.com"
     ),
     description=(
         'Tool for detecting isolated or anomalous depth measurements in bathymetry data'
@@ -20,13 +20,13 @@ setup(
         ],
     },
     packages=[
-        '.',
+        'ggoutlier',
     ],
     zip_safe=False,
     package_data={
         "": [
-            "GGOutlierGIS.png",
-            "Guardian.png",
+            "ggoutlier/GGOutlierGIS.png",
+            "ggoutlier/guardian.png",
         ]
     },
     install_requires=[
