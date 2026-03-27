@@ -149,3 +149,8 @@ $RECYCLE.BIN/
 *QCReport.pdf
 *hillshade*.png
 
+# pixi
+.pixi/
+pixi.lock
+*.conda
+
