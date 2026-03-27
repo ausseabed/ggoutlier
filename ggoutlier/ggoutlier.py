@@ -155,7 +155,7 @@ def main(cli_args=sys.argv[1:]):
 		log("GGOutlier Version: 4.0")
 		log("GGOutlier started at: %s" % (datetime.now()))
 		log("Username: %s" %(os.getlogin()))
-		log("Computer: %s" %(os.environ['COMPUTERNAME']))
+		log("Computer: %s" %(os.environ.get('COMPUTERNAME', 'Unknown')))
 		log("Number of CPUs %d" %(mp.cpu_count()))	
 		log("QC to Survey Standard: %s" % (args.standard))
 		iho = ggmbesstandard.sp44()
