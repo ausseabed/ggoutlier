@@ -11,10 +11,11 @@ dependencies = [
     "reportlab",
     "pyproj",
     "pyshp",
-    "scikit-learn",
+    "scipy",
     "rasterio",
     "numpy",
     "matplotlib",
+    "pillow",
 ]
 
 [project.urls]
