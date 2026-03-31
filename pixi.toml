@@ -11,6 +11,7 @@ pyshp = "*"
 scipy = "*"
 rasterio = "*"
 numpy = "*"
+pillow = "*"
 matplotlib-base = "*"
 
 [package.build.backend]
